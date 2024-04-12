@@ -7,12 +7,12 @@
   .card {
     width: 100%;
     max-width: 400px;
-    border: 1px solid #ccc;
+    border: 1px solid #0bcad7;
     border-radius: 8px;
   }
   
   .card-header {
-    background-color: #f8f9fa;
+    background-color: #074963;
     border-bottom: 1px solid #ccc;
     border-radius: 8px 8px 0 0;
     padding: 10px 15px;
