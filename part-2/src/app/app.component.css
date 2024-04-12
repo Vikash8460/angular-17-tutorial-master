@@ -1,0 +1,33 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar styles */
+.navbar {
+    background-color: #343a40; /* Dark background color */
+    padding: 10px 20px; /* Add some padding */
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin-right: 10px; /* Add some space between navigation items */
+}
+
+.nav-link {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Main app container styles */
+.container {
+    max-width: 960px; /* Limit container width */
+    margin: 20px auto; /* Center container horizontally with some top margin */
+    padding: 0 20px; /* Add padding to container */
+}
