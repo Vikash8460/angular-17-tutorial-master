@@ -1,25 +1,22 @@
 <div class="container col-md-6 offset-md-3 mt-5">
-    <div></div>
     <div class="card">
-        <h4 class="card-header">Login</h4>
-        <div class="card-body">
-            <form>
-                <div class="mb-3">
-                    <label class="form-label">Username</label>
-                    <input type="text" formControlName="username" class="form-control" />
-                </div>
-                <div class="mb-3">
-                    <label class="form-label">Password</label>
-                    <input type="password" formControlName="password" class="form-control" />
-                </div>
-                <div>
-                    <button class="btn btn-primary">
-                        <span  class="spinner-border spinner-border-sm me-1"></span>
-                        Login
-                    </button>
-                    <a routerLink="../register" class="btn btn-link">Register</a>
-                </div>
-            </form>
-        </div>
+      <h4 class="card-header">Login</h4>
+      <div class="card-body">
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Username</label>
+            <input type="text" name="username" class="form-control" required />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Password</label>
+            <input type="password"  name="password" class="form-control" required />
+          </div>
+          <div>
+            <button type="submit" class="btn btn-primary">Login</button>
+            <a routerLink="../register" class="btn btn-link">Register</a>
+          </div>
+        </form>
+      </div>
     </div>
-</div>
+  </div>
+  
