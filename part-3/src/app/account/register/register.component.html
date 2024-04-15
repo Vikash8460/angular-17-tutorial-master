@@ -1,1 +1,30 @@
-<p>register works!</p>
+<div class="container col-md-6 offset-md-3 mt-5">
+    <div class="card">
+      <h4 class="card-header">Register</h4>
+      <div class="card-body">
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Username</label>
+            <input type="text"  name="username" class="form-control" required />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" name="email" class="form-control" required />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Password</label>
+            <input type="password" name="password" class="form-control" required />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Confirm Password</label>
+            <input type="password" name="confirmPassword" class="form-control" required />
+          </div>
+          <div>
+            <button type="submit" class="btn btn-primary">Register</button>
+            <a routerLink="../login" class="btn btn-link">Login</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  
